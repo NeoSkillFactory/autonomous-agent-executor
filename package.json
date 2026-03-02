@@ -1,0 +1,29 @@
+{
+  "name": "autonomous-agent-executor",
+  "version": "1.0.0",
+  "description": "Automatically handles confirmations, error recovery, and iterative task planning for OpenClaw agents without user intervention",
+  "main": "scripts/executor.js",
+  "bin": {
+    "autonomous-agent-executor": "scripts/cli.js"
+  },
+  "scripts": {
+    "start": "node scripts/cli.js",
+    "test": "node --test tests/",
+    "lint": "node --check scripts/*.js"
+  },
+  "keywords": [
+    "autonomous",
+    "agent",
+    "executor",
+    "openclaw",
+    "automation",
+    "error-recovery",
+    "task-planning"
+  ],
+  "author": "OpenClaw Skill Factory",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
