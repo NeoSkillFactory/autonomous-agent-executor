@@ -2,26 +2,29 @@
 
 ![Audit](https://img.shields.io/badge/audit%3A%20PASS-brightgreen) ![License](https://img.shields.io/badge/license-MIT-blue) ![OpenClaw](https://img.shields.io/badge/OpenClaw-skill-orange)
 
-> A skill that enables autonomous agent execution by automatically handling confirmations, error recovery, and iterative task planning without user intervention
+> Automatically handles confirmations, error recovery, and iterative task planning for OpenClaw agents without user intervention.
 
-I'll continue where we left off. However, I don't see any previous context or conversation history in our current session. Could you please provide:
+## Description
 
-1. What task you were working on
-2. What was the last successful step
-3. What specifically failed or timed out
+**Purpose:** Enable fully automated agent task execution with built-in confirmation handling, error recovery, and iterative task planning.
 
-Once I have that context, I can continue the work from where it left off.
+**Value:** Eliminates manual confirmations and interruptions while maintaining reliability through intelligent retry logic and dynamic task decomposition.
 
-## OpenClaw Marketplace
+## Features
 
-This skill is available on [ClawHub](https://clawhub.ai) — the OpenClaw skill marketplace.
-Install it in any OpenClaw agent workspace with:
+- Auto-confirmation handling for all prompt types
+- Error recovery with configurable retry logic and exponential backoff
+- Dynamic task decomposition when tasks exceed complexity threshold
+- Session context preservation across retries and planning iterations
+- CLI-configurable behavior via flags and config files
+- Comprehensive logging for debugging and monitoring
+- Proper exit codes for integration with CI/CD pipelines
 
-```bash
-clawhub install autonomous-agent-executor
-```
+## GitHub
 
-**Recommended price when commercial:** $18 USD
+Source code: [github.com/NeoSkillFactory/autonomous-agent-executor](https://github.com/NeoSkillFactory/autonomous-agent-executor)
+
+**Price suggestion:** $18 USD
 
 ## License
 
