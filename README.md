@@ -24,8 +24,6 @@
 
 Source code: [github.com/NeoSkillFactory/autonomous-agent-executor](https://github.com/NeoSkillFactory/autonomous-agent-executor)
 
-**Price suggestion:** $18 USD
-
 ## License
 
 MIT © NeoSkillFactory
